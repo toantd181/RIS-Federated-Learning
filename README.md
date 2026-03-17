@@ -55,5 +55,5 @@ RIS-Federated-Learning/
 Trần Đức Toàn - Undergraduate Student, School of Information and Communications Technology (SoICT)  
 Hanoi University of Science and Technology (HUST)
 
-GitHub: @toantd181
+GitHub: @toantd181  
 Email: toan.tranduc1801@gmail.com
