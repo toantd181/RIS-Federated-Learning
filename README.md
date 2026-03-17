@@ -18,14 +18,12 @@ This repository implements an end-to-end simulation framework for **Reconfigurab
 ### System Robustness against FGSM Attacks
 The framework's accuracy degradation was measured across multiple independent trials. The paired experimental design isolates the impact of the attack from the randomness of the wireless environment.
 
-*(Placeholder for Accuracy Drop Image)*
-> **Note:** Insert `results/final_accuracy_drop_with_baseline.png` here.
+![Accuracy Drop vs Malicious Clients](results/accuracy_drop.png)
 
 ### Convergence and Attack Impact
 Phase 1 establishes a clean baseline using Early Stopping. Phase 2 introduces the adversarial clients, demonstrating the immediate impact of poisoned model updates.
 
-*(Placeholder for Convergence Image)*
-> **Note:** Insert `results/reconstructed_convergence.png` here.
+![Convergence and Attack Impact](results/convergence.png)
 
 ## ⚙️ Quick Start
 
@@ -33,10 +31,12 @@ Phase 1 establishes a clean baseline using Early Stopping. Phase 2 introduces th
 ```bash
 git clone [https://github.com/toantd181/RIS-Federated-Learning.git](https://github.com/toantd181/RIS-Federated-Learning.git)
 cd RIS-Federated-Learning
+```
 2. Install dependencies
 
-Bash
+```Bash
 pip install -r requirements.txt
+```
 3. Run the simulation
 Execute the Jupyter Notebook RIS_FL_Gibbs_Final.ipynb.
 To perform a quick test, modify the Config cell to reduce num_rounds_phase1 and NUM_TRIALS.
