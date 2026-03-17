@@ -37,20 +37,22 @@ cd RIS-Federated-Learning
 ```Bash
 pip install -r requirements.txt
 ```
-3. Run the simulation
-Execute the Jupyter Notebook RIS_FL_Gibbs_Final.ipynb.
-To perform a quick test, modify the Config cell to reduce num_rounds_phase1 and NUM_TRIALS.
+**3. Run the simulation** Execute the Jupyter Notebook `RIS_FL_Gibbs_Final.ipynb`.  
+*Note: To perform a quick test, modify the `Config` cell to reduce `num_rounds_phase1` and `NUM_TRIALS`.*
 
-📁 Repository Structure
-Plaintext
+---
+
+## 📁 Repository Structure
+
+```text
 RIS-Federated-Learning/
 ├── README.md                    # Project documentation
 ├── requirements.txt             # Dependency list
 ├── RIS_FL_Gibbs_Final.ipynb     # Main simulation framework
 └── results/                     # Generated plots and evaluation metrics
-📬 Contact
-Trần Đức Toàn Undergraduate Student, School of Information and Communication Technology (SoICT)
-
+```
+** 📬 Contact
+Trần Đức Toàn - Undergraduate Student, School of Information and Communications Technology (SoICT)
 Hanoi University of Science and Technology (HUST)
 
 GitHub: @toantd181
