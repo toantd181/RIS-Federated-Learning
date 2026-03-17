@@ -51,8 +51,9 @@ RIS-Federated-Learning/
 ├── RIS_FL_Gibbs_Final.ipynb     # Main simulation framework
 └── results/                     # Generated plots and evaluation metrics
 ```
-** 📬 Contact
-Trần Đức Toàn - Undergraduate Student, School of Information and Communications Technology (SoICT)
+## 📬 Contact
+Trần Đức Toàn - Undergraduate Student, School of Information and Communications Technology (SoICT)  
 Hanoi University of Science and Technology (HUST)
 
 GitHub: @toantd181
+Email: toan.tranduc1801@gmail.com
